@@ -1,0 +1,21 @@
+.gratefulness {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.gratefulness p {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.gratefulness h2 {
+  font-family: "Libre Caslon Display", serif;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  margin: 1rem;
+}
