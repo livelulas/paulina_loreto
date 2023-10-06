@@ -1,0 +1,11 @@
+.details {
+  text-align: center;
+  padding-top: 4rem;
+  height: 90%;
+}
+
+.details h3 svg {
+  margin-top: 1rem;
+  width: 3rem;
+  height: 3rem;
+}

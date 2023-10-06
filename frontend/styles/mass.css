@@ -1,0 +1,11 @@
+.mass {
+  text-align: center;
+  padding-top: 4rem;
+  height: 100%;
+}
+
+.mass p {
+  font-size: 1.4rem;
+  padding: 0.3rem;
+  line-height: 2rem;
+}
