@@ -7,7 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Libre+Caslon+Display&family=Whisper&display=swap');
 
 :root {
-  --body-background: #f2f2f2;
   --body-color: #444;
   --heading-color: black;
   --action-color: #d64045;
@@ -15,7 +14,8 @@
   --gold-border: #79613d;
   --height-default: 90dvh;
   --height-header: 10dvh;
-  --home-background: #F8F4EB;
+  --home-background: #f4e1d7;
+  --body-background: #F8F4EB;
 }
 
 html {
@@ -26,6 +26,7 @@ body {
   margin: 0;
   background: var(--body-background);
   font-family: 'Cormorant Garamond', serif;
+  color: var(--gold-border);
 }
 
 main {
@@ -66,9 +67,10 @@ footer a {
   font-family: "Libre Caslon Display", serif;
   margin-bottom: 0.5rem;
   text-decoration: underline;
-  text-decoration-color: var(--gold-border);
+  text-decoration-color: var(--gold);
   text-underline-offset: 5px;
   text-decoration-thickness: 1px;
+  color: var(--gold);
 }
 
 .subtitle {
