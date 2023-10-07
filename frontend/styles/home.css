@@ -4,6 +4,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  position: relative;
 }
 
 .home p {
@@ -28,4 +29,23 @@
   font-family: 'Whisper', cursive;
   font-weight: 100;
   line-height: 0;
+}
+
+.home img {
+  height: 42rem;
+  width: auto;
+  position: absolute;
+  right: -14rem;
+  top: -11rem;
+  transform: rotate(10deg);
+}
+
+@media only screen and (min-width: 80em) {
+  .home h1 {
+    font-size: 4rem;
+  }
+
+  .home h1 span {
+    font-size: 3.5rem;
+  }
 }
