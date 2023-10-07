@@ -26,6 +26,7 @@ body {
   margin: 0;
   background: var(--body-background);
   font-family: 'Cormorant Garamond', serif;
+  color: var(--gold-border);
 }
 
 main {
@@ -66,9 +67,10 @@ footer a {
   font-family: "Libre Caslon Display", serif;
   margin-bottom: 0.5rem;
   text-decoration: underline;
-  text-decoration-color: var(--gold-border);
+  text-decoration-color: var(--gold);
   text-underline-offset: 5px;
   text-decoration-thickness: 1px;
+  color: var(--gold);
 }
 
 .subtitle {
