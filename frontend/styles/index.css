@@ -7,7 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Libre+Caslon+Display&family=Whisper&display=swap');
 
 :root {
-  --body-background: #f2f2f2;
   --body-color: #444;
   --heading-color: black;
   --action-color: #d64045;
@@ -15,7 +14,8 @@
   --gold-border: #79613d;
   --height-default: 90dvh;
   --height-header: 10dvh;
-  --home-background: #F8F4EB;
+  --home-background: #f4e1d7;
+  --body-background: #F8F4EB;
 }
 
 html {
