@@ -42,21 +42,47 @@ header {
   height: var(--height-header);
 }
 
-footer {
-  height: 5dvh;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  align-items: center;
-  background-color: white;
-  color: var(--gold);
+.image {
+  width: 100%;
+  height: 100%;
+  height: 90dvh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-footer a {
-  padding-left: 4px;
-  padding-right: 5px;
-  color: var(--gold-border);
+.image.last {
+  background-position-x: -10rem;
 }
+
+@media only screen and (min-width: 720px) {
+  .image.last {
+    background-position-x: -5rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .image.last {
+    background-position-x: 0;
+  }
+}
+
+.image.red-dress {
+  background-position-y: 0;
+}
+
+@media only screen and (min-width: 720px) {
+  .image.red-dress {
+    background-position-y: -20rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .image.red-dress {
+    background-position-y: -35rem;
+  }
+}
+
 
 .full-view {
   height: var(--height-default);
@@ -87,4 +113,21 @@ footer a {
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
+}
+
+
+.footer {
+  height: 5dvh;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  background-color: white;
+  color: var(--gold);
+}
+
+.footer a {
+  padding-left: 4px;
+  padding-right: 5px;
+  color: var(--gold-border);
 }
