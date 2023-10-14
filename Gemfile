@@ -36,3 +36,5 @@ gem "puma", "< 7"
 # gem "nokolexbor", "~> 0.4"
 
 gem "bridgetown-svg-inliner", "~> 2.0", :group => :bridgetown_plugins
+
+gem "bridgetown-seo-tag", "~> 6.0"
