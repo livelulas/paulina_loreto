@@ -9,3 +9,8 @@
   padding: 0.3rem;
   line-height: 2rem;
 }
+
+.reception a {
+  color: var(--gold);
+  font-size: 1.5rem;
+}

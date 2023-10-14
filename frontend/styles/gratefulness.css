@@ -1,23 +1,66 @@
 .gratefulness {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 4rem;
+  margin-top: 14dvh;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .gratefulness p {
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
   color: var(--gold-border);
 }
 
 .gratefulness h2 {
   font-family: "Libre Caslon Display", serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
-  line-height: 2.5rem;
+  line-height: 2rem;
   margin: 1rem;
   color: var(--gold);
+}
+
+@media only screen and (min-width: 360px) {
+  .gratefulness {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .gratefulness p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .gratefulness {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .gratefulness p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .gratefulness {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .gratefulness p {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .gratefulness h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
 }
